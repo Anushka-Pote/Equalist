@@ -5,7 +5,7 @@ import logging
 app = Flask(__name__)
 
 # Configure GenAI API
-genai.configure(api_key="AIzaSyAUHjI-5L_s0RSs8sOKugDMY1_7cvVBhHw")
+genai.configure(api_key="API_KEY")
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
