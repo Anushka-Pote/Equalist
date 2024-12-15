@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const signLanguageButton = document.getElementById("signLanguage");
   const signLanguageSection = document.getElementById("signLanguageSection");
 
-  const giphyApiKey = "01iK6L85ysgGLvS1YdlMBAD1IZtXsyBC"; 
+  const giphyApiKey = "YOUR_API_KEY"; 
 
   // Show the Sign Language section when the button is clicked
   signLanguageButton.addEventListener("click", () => {
