@@ -293,7 +293,7 @@ function getHighlightedText() {
 
 // Function to fetch translation from Google Translate API
 async function translateText(text, targetLanguage, displayElement) {
-  const apiKey = "AIzaSyD3ImkwjILtcgKhhdLgNBoSY6uO4QSN-Kc";  // Replace with your actual Google API key
+  const apiKey = "YOUR_API_KEY";  // Replace with your actual Google API key
   const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
   
   try {
